@@ -11,6 +11,11 @@ public class Person {
         this.age = age;
     }
 
+    public Person(String firstName, int age) {
+        this.firstName = firstName;
+        this.age = age;
+    }
+
     public Person() {
     }
 
@@ -36,5 +41,14 @@ public class Person {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                '}';
     }
 }
