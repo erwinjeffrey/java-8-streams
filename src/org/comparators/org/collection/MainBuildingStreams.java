@@ -29,6 +29,7 @@ public class MainBuildingStreams {
         streamOfInt.limit(5).forEach(System.out::println);
     }
 
+
 }
 
 
